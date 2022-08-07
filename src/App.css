@@ -7,7 +7,7 @@
 
 .app {
   height: 100%;
-  background: url('./images/city.jpg.jpg');     
+  background: url('./images/yes.webp');     
   background-size: cover;
   background-position: center;
   display: flex;
@@ -16,21 +16,22 @@
   text-align: center;
 }
 .card {
-  background: whitesmoke;
+  background: lightgrey;
   width: 40%;
   height: 20%;
   display: flex;
   align-items: center;
   flex-direction: column;
-  border-radius: 25px;
-  padding: 2%;
-  box-shadow: 10px 10px;
+  border-radius: 21px;
+  padding: 1%;
+  box-shadow: 7px 5px;
 }
 
 .heading {
   display: flex;
   align-items: center;
-  height: 582px;
+  height: 580px;
+  
 }
 
 .button {
@@ -43,15 +44,15 @@
   align-items: center;
   cursor: pointer;
   text-transform: uppercase;
-  height: 200px;
+  height: 100px;
   width: 210px;
   opacity: 1;
-  background-color: #ffffff;
+  background-color: darkgray;
   border: 1px solid rgba(22, 76, 167, 0.6);
 }
   
 .button span {
-  color: #164ca7;
+  color: black;
   font-size: 12px;
   font-weight: 500;
   letter-spacing: 0.7px;
@@ -102,9 +103,9 @@
   }
 }  
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 580px) {
   .card {
-      width: 80%;
+      width: 70%;
       height: 30%;
   }
 }
